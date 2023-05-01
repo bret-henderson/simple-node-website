@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  touch-action: manipulation;
+}
+
+body {
+  font-family: Inter, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  background-color: rgba(246, 248, 250);
+}
+
+header {
+  background-color: black;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .08);
+  padding: 8px;
+}
+
+.menu-container > ul {
+  color: white;
+  display: flex;
+  gap: 16px;
+  padding-left: 16px;
+  align-items: center;
+  list-style: none;
+}
+
+.tab {
+  cursor: pointer;
+  position: relative;
+  display: block;
+}
+
+.tab > a {
+  font-size: 1rem;
+  padding: 0.5rem;
+  display: inline-flex;
+  border-radius: 0.25rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.tab > a:hover {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+main {
+  padding: 16px;
+}
